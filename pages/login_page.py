@@ -182,4 +182,4 @@ class LoginPage(BasePage):
         self.click(self.remeber_loc)
         self.click(self.login_btn)
 
-
+    print('from dummy')
