@@ -183,3 +183,5 @@ class LoginPage(BasePage):
         self.click(self.login_btn)
 
     print('from dummy')
+    print('from the duplicate branch')
+    
