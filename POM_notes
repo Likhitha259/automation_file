@@ -1,0 +1,72 @@
+A Page Object Model (POM) in Selenium is a design pattern where each web page of an application is represented as a
+ separate class, containing methods to interact with its web elements, essentially creating an
+ object repository that improves code reusability and makes test maintenance easier by centralizing
+ UI element interactions and reducing code duplication when changes occur on the web page;
+ this allows for cleaner, more modular test scripts where each page is treated as an object with
+ defined actions to perform on it.
+
+Key points about POM:
+    Organization:
+        Each web page is represented as a class with methods for interacting with its elements,
+        like clicking buttons or entering text.
+    Maintainability:
+        If UI changes occur, modifications are only needed in the corresponding page object class,
+        not across multiple test scripts.
+    Code Reusability:
+        Common actions across pages can be defined in base classes and inherited by specific page objects.
+    Readability:
+        Test scripts become clearer by explicitly calling methods that represent actions on a page.
+    Locator Management:
+        Web element locators are stored within the excel, making it easier to manage and update
+        them if needed.
+
+Benefits of using POM:
+    Reduced code duplication:
+        By centralizing web element interactions, the same code doesn't need to be written repeatedly across different tests.
+    Improved test maintenance:
+        Changes to the UI only require updates in the relevant page object class, not across all test scripts.
+    Enhanced code readability:
+        Test logic is easier to understand as each page is represented by a dedicated class with clear methods.
+
+
+###############################################################################################
+
+
+Data-Driven Testing (DDT) is a software testing methodology where test input and
+output values are read from external data sources (like Excel, CSV, JSON, or databases),
+rather than being hard-coded into the test scripts.
+
+Why Use DDT?
+Easier maintenance: Update only the data file, not the test logic.
+Reusability: Same test method reused with various inputs.
+Scalability: Ideal for regression testing and large test suites.
+
+################################################################################
+
+FRAMEWORK
+
+In Selenium, a framework refers to a structured combination of tools and design patterns that helps in
+designing, organizing, and maintaining test scripts efficiently
+
+Why use a framework in Selenium?
+    To increase code reusability
+    To improve maintainability and scalability
+    To enhance test reporting
+    To manage test data efficiently
+    To support cross-browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

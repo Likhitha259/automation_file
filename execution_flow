@@ -1,0 +1,21 @@
+pytest command
+   ↓
+conftest.py (fixture setup)
+   ↓
+test file (test_loginpage.py)
+   ↓
+csv_file(test_data)
+   ↓
+Page Object (loginpage.py)
+   ↓
+Base Page (common methods)
+   ↓
+Selenium WebDriver
+   ↓
+Browser actions
+   ↓
+Assertion (test result)
+   ↓
+Report generation
+   ↓
+Teardown (browser quit)

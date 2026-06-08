@@ -1,0 +1,61 @@
+distributed version control
+eg:git hub
+
+git:one of the distributed version control tool,which will track all the changes
+from the code
+>this is used localy
+>it works offline
+>local repository
+
+git hub:
+>remote repository
+>internet,browser
+>collabarate with other engineer
+>PR[Pull request,pull management]
+
+commands:
+git --version
+
+1-use commands:
+>git config --global user.name "username"
+>git config --global user.email "emai id"
+
+
+
+>git init ---initializing
+>git add filename.py filename1.py
+>git add folder
+>git add .[not recomendable]
+>git commit -m "commit message
+>git status
+>git log
+>git log --oneline
+
+branching
+>git branch branch_name
+>git switch branch_name
+>git switch -c branch_name
+>git branch
+
+>git merge branch_name
+
+
+>git remote add origin "url"
+>git push -u origin master/main
+
+
+actually flow:
+>git clone "url"
+>git switch -c branch_name
+>venv--create file
+>git add
+>git commit -m""
+>git push -u origin branch_name
+>raise pr --->merging from seniors
+>git pull origin master
+
+##########################################
+>git stash
+>git restore
+>git reset
+>git revert
